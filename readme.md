@@ -5,3 +5,7 @@
 Cambios:
 
 Se inició el repositorio y se lanzó la pagina en github pages.
+
+---
+
+Se crearon y subieron al repositorio las paginás restantes.

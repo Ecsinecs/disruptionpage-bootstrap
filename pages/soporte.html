@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <title>Disruption | Soporte</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid container d-flex justify-content-around align-items-center">
+                <img src="../assets/img/Logonavbar.png" alt="Logo" class="navbar-brand">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="informacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="faq.html">FaQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Soporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="requisitos.html">Requisitos</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container" style="height: 68vh;">
+        <form class="my-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Compartiremos tu información con cualquier empresa o persona que nos de 1 peso.</div>
+            </div>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option selected disabled>¿Que tipo de error ocurrió?</option>
+                <option value="1">Bug audiovisual (Error de texturas, audio, cinematica, etc.)</option>
+                <option value="2">Bug de jugabilidad (Error de estadisticas, ataques no conectan, etc.)</option>
+                <option value="3">Problemas tecnicos (Partida corrupta, error al instalar, etc.)</option>
+                <option value="4">Pregunta general</option>
+              </select>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Describa el error o escribanos su pregunta.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+              </div>
+            <button type="submit" class="btn btn-success mb-3">¡Enviar!</button>
+            <p class="text-muted">La respuesta le llegará por correo aproximadamente entre 3 a 10 dias.</p>
+          </form>
+    </main>
+    <footer class=" text-center">
+        <div class="container p-4">
+            <section>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            Copyright Meow Studios 2022
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/9fa2adda2d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
