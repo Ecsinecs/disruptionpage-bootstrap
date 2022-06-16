@@ -12,4 +12,4 @@ Se crearon y subieron al repositorio las paginás restantes.
 
 ---
 
-##### NOTA: Este proyecto contiene algunos errores para la vista mobile en las ultimas 3 paginas. ¡cuando tenga tiempo lo solucionaré!
+NOTA: Este proyecto contiene algunos errores para la vista mobile en las ultimas 3 paginas. ¡cuando tenga tiempo lo solucionaré!
