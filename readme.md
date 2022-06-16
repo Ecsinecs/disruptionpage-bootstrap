@@ -9,3 +9,7 @@ Se inició el repositorio y se lanzó la pagina en github pages.
 ---
 
 Se crearon y subieron al repositorio las paginás restantes.
+
+---
+
+##### NOTA: Este proyecto contiene algunos errores para la vista mobile en las ultimas 3 paginas. ¡cuando tenga tiempo lo solucionaré!
